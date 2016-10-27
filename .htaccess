@@ -1,0 +1,4 @@
+﻿Options +FollowSymLinks
+ 
+RewriteEngine On
+RewriteRule ^topic/([a-zA-Z0-9]+)/$ index.php?topic=$1
